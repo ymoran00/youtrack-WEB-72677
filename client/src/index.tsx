@@ -8,15 +8,13 @@ function App(): JSX.Element {
 
     const myVar = React.useMemo<MyCommonType>(() => {
         return {
-            name: "test",
+            name: "test name",
             value: 100
         }
     }, []);
 
     return (
-        <div>Example: {myVar.name}, {myConst2}
-        </div>
-
+        <div>Example: {myVar.name}, {myConst2}</div>
     );
 }
 
