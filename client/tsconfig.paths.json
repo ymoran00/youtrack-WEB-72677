@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@my-common/types/*": ["../../common/src/types/*"],
+    }
+  }
+}
